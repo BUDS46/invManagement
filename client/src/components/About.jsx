@@ -1,11 +1,15 @@
-/* eslint-disable */
-
 import React from 'react';
+import styled from 'styled-components';
 
-export default function About(){
-    return (
-        <div>
-            <h1>About</h1>
-        </div>
-    );
+const Title = styled.h1`
+    font-size: 1.5em; 
+    color: red; 
+`;
+
+export default function About() {
+  return (
+    <div>
+      <Title>About</Title>
+    </div>
+  );
 }
